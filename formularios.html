@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    
+        <h1>Real Madrid CF</h1>
+        <header>
+            <a href="https://www.realmadrid.com/es-ES"><img src="./real madird.png" alt="Real madrid" width="150px"></a>
+        </header>
+        <main>
+            
+            <section>
+                <form action="/realmadrid" method="post" autocomplete="on">     
+                    <fieldset>
+                        <legend>CONTACTO CON EL CLUB</legend>
+
+
+                        <label for="nombre">Nombre completo</label>
+                        <input id="nombre" name="nombre" type="text" required>
+                        <label for="email">Correo electrónico</label>
+                        <input id="email" name="email" type="email" required>
+                        <label for="dni">DNI</label>
+                        <input id="number" name="number" type="number">
+                         <label for="fecha de nacimiento"></label>
+                        <input id="nacimiento" name="fechanacimiento" type="date">
+
+        
+                
+                        <label for="Socio"></label>
+                        <input id="socio" name="socio" type="checkbox">
+                 
+                        <label for="miebros familiares">Miembros familiares</label>
+                        <input id="miembros" name="miembros" type="number" min="1" max="10" value="1" required>
+                        <div>
+
+                
+                        <fieldset>
+                        <legend>Seleccione un deporte</legend>
+                        <input type="checkbox" id="voley" name="Voley" value="voley">
+                        <label for="voley">Voley</label>
+
+                        <input type="checkbox" id="basquet" name="basquet" value="basquet">
+                        <label for="basquet">Basquet</label>
+
+                        <input type="checkbox" id="natacion" name="natacion" value="natacion">
+                        <label for="natacion">Natacion</label>
+
+                        <input type="checkbox" id="pelotapaleta" name="pelotapaleta" value="pelotapaleta">
+                        <label for="pelotapaleta">Pelota paleta</label>
+
+                        <input type="checkbox" id="patin" name="patin" value="patin">
+                        <label for="patin">Patin</label>
+
+                        
+
+                    </fieldset>
+                    </section>
+                </div>
+                        <label></label>
+                        <div>
+<p>¿Eres socio del club?</p>
+                            <input type="radio" id="si" name="si" value="si">
+                            <label for="si">SI</label>
+
+                            <input type="radio" id="no" name="no" value="no">
+                            <label for="no">NO</label>
+
+               </div>
+    <label for="comentarios">Comentarios o sugerencias para el club.</label>
+                            <textarea id="comentarios" name="comentarios" rows="4"
+                                placeholder="Deje un comentario..."></textarea>
+
+
+                           
+                    </fieldset>
+                    <footer>
+        <p><u>© real madrid footaball club</u></p>
+        <button type="submit">Enviar</button>
+                    </footer>
+                </form>
+        
+        </main>
+    </form>
+</body>
+
+</html>
